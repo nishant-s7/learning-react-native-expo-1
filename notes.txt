@@ -1,0 +1,30 @@
+=> App component is the 'Root' component for the application.
+
+=> Any text has to be inside the Text component, unlike web.
+
+=> Styling in react native is inspired by css, that is, it is relatable to css, but many things are different.
+
+=> Using StyleSheet object is helpful in 2 ways.
+  1. Auto completion
+  2. Provides validation (if you use invalid style/properties -> error)
+
+=> Components have flexbox enabled by default, unlike web.
+
+=> Flex
+  1. Main axis
+    - row = left to right
+    - column = top to bottom
+    - row-reverse = right to left
+    - column-reverse = bottom to top
+    - justifyContent (Can't use stretch here, so go to children components to specify "how much space it should take of the space it can get along the main axis")
+
+  2. Cross axis
+    - the other axis
+    - alignItems (default is 'stretch')
+
+=> Event Handling - Similar to web
+
+=> Sometimes there can be a difference between android and ios for styling.
+  - View is a more general component than Text.
+
+=> Unlike web, styles do not cascade (tranferring of style to children eg. color)
