@@ -28,3 +28,17 @@
   - View is a more general component than Text.
 
 => Unlike web, styles do not cascade (tranferring of style to children eg. color)
+
+=> The space taken up by ScrollView is decided by its parent container
+  - Quite a lot of props for customization, see docs
+  - ScrollView renders all of its children, doesn't matter if they're visible or not
+
+=> FlatList solves this all rendering issue
+  - Giving objects as items is a must
+  - if you have a key attribute in this object, the key for list is extracted automatically by FlatList
+  - else we can use keyExtractor prop to define the key
+
+=> Pressed - modern version for all the touchable variants
+  - Ripple effect in iOS has to be done manually by passing func to style
+
+=> Styling overall bg of a modal -> do it in the nested View
