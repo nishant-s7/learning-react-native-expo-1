@@ -42,3 +42,5 @@
   - Ripple effect in iOS has to be done manually by passing func to style
 
 => Styling overall bg of a modal -> do it in the nested View
+
+=> react-devtools is helpful
